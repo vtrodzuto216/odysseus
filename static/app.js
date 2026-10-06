@@ -53,6 +53,9 @@ import { initKeyboardShortcuts } from './js/keyboard-shortcuts.js';
 import { getSettings } from './js/appConfig.js';
 import { initSidebarLayout, syncRailSide } from './js/sidebar-layout.js?v=20260715startupclean';
 import { initSectionCollapse, initSectionDrag } from './js/section-management.js';
+import { initI18n } from './js/i18n.js';
+
+initI18n();
 
 const API_BASE = window.location.origin;
 window.themeModule = themeModule;
